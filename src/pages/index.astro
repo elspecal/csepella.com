@@ -1,0 +1,29 @@
+---
+import { Markdown } from 'astro/components';
+
+import Head from '../components/Head.astro';
+---
+
+<html lang="en">
+<head>
+  <Head title="Home page of Miki Csepella" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/cv">CV</a></li>
+        <li><a href="/writings">writings</a></li>
+        <li><a href="/projects">projects</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <Markdown>
+      ## Hi! 👋
+      # I'm Miki.
+      ### I create stuff by programming computers and I put it on the web. You can find some of it [here](/projects).
+    </Markdown>
+  </main>
+</body>
+</html>
