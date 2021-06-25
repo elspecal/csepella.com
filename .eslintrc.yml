@@ -6,6 +6,7 @@ extends:
   - 'eslint:recommended'
   - 'plugin:react/recommended'
   - 'plugin:prettier/recommended'
+  - preact
 parserOptions:
   ecmaFeatures:
     jsx: true
@@ -13,4 +14,9 @@ parserOptions:
   sourceType: module
 plugins:
   - react
-rules: {}
+  - react-hooks
+rules:
+  react/react-in-jsx-scope: off
+  react/prop-types: off
+  react-hooks/rules-of-hooks: error
+  react-hooks/exhaustive-deps: warn

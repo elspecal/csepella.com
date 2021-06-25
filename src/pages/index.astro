@@ -2,6 +2,7 @@
 import { Markdown } from 'astro/components';
 
 import Head from '../components/Head.astro';
+import Nav from '../components/Nav/Nav'
 ---
 
 <html lang="en">
@@ -10,13 +11,7 @@ import Head from '../components/Head.astro';
 </head>
 <body>
   <header>
-    <nav>
-      <ul>
-        <li><a href="/cv">CV</a></li>
-        <li><a href="/writings">writings</a></li>
-        <li><a href="/projects">projects</a></li>
-      </ul>
-    </nav>
+    <Nav withHome={false} />
   </header>
   <main>
     <Markdown>
