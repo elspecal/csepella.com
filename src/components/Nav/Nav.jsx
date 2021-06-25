@@ -11,13 +11,13 @@ export default function Nav({ withHome }) {
       {withHome && <a href='/'>welcome</a>}
       <ul>
         <li>
-          <a href='/cv'>CV</a>
+          <a href='/cv/'>CV</a>
         </li>
         <li>
-          <a href='/writings'>writings</a>
+          <a href='/writings/'>writings</a>
         </li>
         <li>
-          <a href='/projects'>projects</a>
+          <a href='/projects/'>projects</a>
         </li>
       </ul>
     </nav>
