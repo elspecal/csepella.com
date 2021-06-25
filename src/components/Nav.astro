@@ -1,0 +1,35 @@
+---
+const { withHome } = Astro.props;
+---
+
+<style lang="scss">
+  .nav { display: flex }
+  .with-home { justify-content: space-between }
+  .without-home { justify-content: flex-end }
+
+  .nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1em;
+  }
+
+  .nav li > a {
+    text-decoration: none;
+    color: inherit;
+  }
+</style>
+
+<nav class={withHome ? 'nav with-home' : 'nav without-home'}>
+  {withHome && <a href='/'>welcome</a>}
+  <ul>
+    <li>
+      <a href='/cv'>CV</a>
+    </li>
+    <li>
+      <a href='/writings'>writings</a>
+    </li>
+    <li>
+      <a href='/projects'>projects</a>
+    </li>
+  </ul>
+</nav>
