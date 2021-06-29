@@ -6,7 +6,7 @@
     "build": "astro build"
   },
   "devDependencies": {
-    "astro": "^0.14.0",
+    "astro": "^0.15.1",
     "eslint": "^7.29.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",

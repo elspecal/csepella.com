@@ -1,10 +1,11 @@
 @font-face {
   font-family: 'Inter';
-  font-style: normal;
+  font-style: oblique 0deg 10deg;
   font-weight: 400 900;
   font-display: optional;
-  src: url(/assets/Inter.var.woff2) format('woff2');
-  unicode-range: U+00-7F, 1F300—1F5FF;
+  font-synthesis: none;
+  src: url(/assets/Inter-Subset.woff2) format('woff2-variations');
+  unicode-range: U+20-7F, U+D3, U+F3;
 }
 
 :root {
@@ -15,4 +16,12 @@
   font-family: Inter, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   margin: 0;
   padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
 }

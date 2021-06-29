@@ -1,3 +1,8 @@
+---
+layout: ../layouts/Layout.astro
+title: CV of Miki Csepella
+---
+
 # Miklós Csepella
 ##### <csepella@tutanota.com> ▪ [+36 30 879 3275](tel:+36308793275)
 ## Front-End Developer

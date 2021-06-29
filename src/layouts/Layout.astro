@@ -1,0 +1,14 @@
+---
+import Head from '../components/Head.astro';
+import Nav from '../components/Nav.astro';
+
+const { content } = Astro.props;
+---
+
+<html>
+<Head title={content.title} />
+<body>
+  <Nav withHome />
+  <slot />
+</body>
+</html>
