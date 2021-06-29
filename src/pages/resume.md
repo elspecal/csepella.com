@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/Layout.astro
-title: CV of Miki Csepella
+title: resume of Miki Csepella
 ---
 
 # Miklós Csepella
